@@ -1,0 +1,25 @@
+package com.examples;
+
+public class Swtichdemo {
+	public static void main(String args[]) {
+		
+		char grade='A';
+		switch(grade) {
+
+		case'A':
+			System.out.println("grade A: Excellent");
+			break;
+		case'B':
+			System.out.println("grade B: GOOOD");
+			break;
+		case'C':
+			System.out.println("grade c: AVARGE");
+			break;
+		default:
+			System.out.println("wrong type");
+			break;
+			
+		}
+	}
+
+}
