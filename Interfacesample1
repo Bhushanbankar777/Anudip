@@ -1,0 +1,39 @@
+package com.demo;
+
+//class extends class
+//class implements interface
+//interface extends interface
+interface Employee1
+{
+	
+}
+interface Employee2
+{
+	
+}
+interface Employee3
+{
+	
+}
+
+class Employee4
+{
+	
+}
+class Perment_Employee  extends Employee4 implements Employee1,Employee2,Employee3
+{
+	
+}
+
+class Contract_Employee implements Employee1
+{
+
+}
+
+public class Interfacesample1 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
