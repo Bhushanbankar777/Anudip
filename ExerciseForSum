@@ -1,0 +1,25 @@
+package com.examples;
+
+import java.util.Scanner;
+
+public class ExerciseForSum {
+
+	public static void main(String[] args) {
+		int i,n,sum=0;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("input Number");
+		
+		n= sc.nextInt();
+		System.out.println("the number are" + n);
+		
+		
+		for(i=1; i<n; i++) {
+			
+			System.out.println(i);
+			sum +=i;//sum=sum+i;
+		}
+		System.out.println("The sum of numbers  are  " + n + "  " + sum);
+
+	}
+
+}
