@@ -1,0 +1,27 @@
+package com.demo;
+
+
+class Game {
+	void type()
+	{
+		System.out.println("Indoor Games and Out door game");
+	}
+
+}
+public class Cricket extends Game{
+	void type()
+	{
+	System.out.println("Outdoor game");	
+	}
+
+	
+	public static void main(String[] args) {
+		 
+		
+		
+    Cricket ck= new Cricket();
+    ck.type();
+    ck.type();
+	}
+
+}
