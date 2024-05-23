@@ -1,0 +1,67 @@
+package com.examples;
+
+public class Operators {
+/*	arithmatic operators
+	void add(int a, int b) {
+		
+		int result = a+b;
+		System.out.println(result);
+	}
+	
+	void sub(int a, int b) {
+		
+		int result = a-b;
+		System.out.println(result);
+	}
+	
+	void multi(int a, int b) {
+		
+		int result = a*b;
+		System.out.println(result);
+	}
+	
+	void div(int a, int b) {
+		
+		int result = a/b;
+		System.out.println(result);
+	}
+	
+	
+	public static void main(String args[]) {
+		Operators od = new Operators();
+		od.add(10,5);
+		od.sub(10,5);
+		od.multi(10,5);
+		od.div(10,5);
+	}    */
+	public static void main(String args[]) {
+//	int a =10;
+//	int b =5;
+	 
+//	boolean c = a>b;
+//	System.out.println(c);
+//	System.out.println(a>b);
+//	System.out.println(b<a);
+//	System.out.println(a<=b);
+//	System.out.println(a>=b);
+//	System.out.println(a!=b);
+	
+	// logical add && ,logical or || ,logical nor |
+//	System.out.println(b>10 || b<10);
+//	System.out.println(b>3 && b<10);
+//	
+// increment operator (++) decrement operator(--)
+	
+	
+	// & (bitwise operator) and=& or=| nor=!
+	
+	int a = 60;
+	int b = 13;
+	
+	System.out.println(a&b);
+	System.out.println(a|b);
+	System.out.println(a^b);
+	
+	}
+
+}
