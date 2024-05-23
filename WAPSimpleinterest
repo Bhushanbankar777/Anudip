@@ -1,0 +1,24 @@
+package com.examples;
+
+import java.util.Scanner;
+public class WAPSimpleinterest {
+	 
+
+		public static void main(String[]args) {
+			
+			int p, r, n;
+			double si;
+			
+			Scanner sc= new Scanner(System.in);
+			System.out.println(" Enter principal amount:");
+			p=sc.nextInt();
+			System.out.println(" Enter value of n :");
+            r=sc.nextInt();
+			System.out.println(" Enter the value of r :");
+			n=sc.nextInt();
+			si=(p*r*n)/100.0;
+			System.out.println(" Simple interest is :" + si);
+			
+		}
+	}
+
