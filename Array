@@ -1,0 +1,29 @@
+package com.examples;
+
+public class Array {
+	
+	
+public static void main(String args[]) {
+	
+	int[] a= {1,2,3,4,5};
+	int[] b=a.clone();
+	
+	//printing array element of b
+	for(int i = 0; i<b.length;i++)
+	{
+		System.out.println(b[i]);
+	}
+	a[2]=56;
+	System.out.println(b[2]);
+	a[4]=100;
+	System.out.println(b[4]);
+	
+	System.arraycopy(a,0,b,0,0);
+	for(int i = 0; i<b.length;i++)
+	{
+		System.out.println(b[i]);
+	}
+	a[3]=66;
+	System.out.println(b[3]);
+	}
+}
