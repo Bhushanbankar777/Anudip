@@ -1,0 +1,22 @@
+package com.examples;
+import java.util.Scanner;
+public class UserInputDemo {
+
+	public static void main(String[]args) {
+		
+		int a, b, c;
+		double avg;
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println(" Enter mark of subject 1:");
+		a=sc.nextInt();
+		System.out.println(" Enter mark of subject 2:");
+        b=sc.nextInt();
+		System.out.println(" Enter mark of subject 3:");
+		c=sc.nextInt();
+		avg=(a+b+c)/3.0;
+		System.out.println(" the average of three  subject :" +avg);
+		
+	}
+}
+  
